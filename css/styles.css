@@ -324,6 +324,20 @@ button {
     width: 264px;
 }
 
+.emplo-our-link {
+    display: flex;
+    justify-content: center;
+    background-color: var(--bth-color);
+    border-radius: 4px;
+}
+
+.emlo-our-icon {
+    width: 64px;
+    height: 64px;
+    margin: 24px 100px 24px 100px;
+}
+
+
 .text-going {
     margin-top: 8px;
     font-size: 16px;
