@@ -197,6 +197,15 @@ button {
     padding-bottom: 188px;
     text-align: center;
     background-color: var(--modal-color);
+
+    min-width: 1440px;
+    min-height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/header_offise.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .main-button {
