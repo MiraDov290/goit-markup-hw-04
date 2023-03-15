@@ -533,10 +533,10 @@ button {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
-    gap: 16px;
     margin-top: 16px;
-    margin-left: 120px;   
+    margin-left: 120px;
+    padding: 0px;
+    gap: 16px;   
 }
 
 .media-list-link {
@@ -546,7 +546,7 @@ button {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--modal-color);
+    background-color: var(--text-color);
 }
 
 .media-list-icon {
