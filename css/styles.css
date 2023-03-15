@@ -546,7 +546,6 @@ button {
     flex-direction: row;
     align-items: flex-start;
     margin-top: 16px;
-    margin-left: 120px;
     padding: 0px;
     gap: 16px;   
 }
