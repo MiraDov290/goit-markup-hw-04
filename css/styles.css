@@ -124,11 +124,6 @@ button {
     color: var(--blue-color);
 }
 
-.logo:hover,
-.logo:focus {
-    color: var(--modal-color);
-}
-
 .logo-links {
     color: var(--bth-color);
 }
@@ -331,6 +326,7 @@ button {
     justify-content: center;
     background-color: var(--bth-color);
     border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .emlo-our-icon {
@@ -375,6 +371,7 @@ button {
 .emplo-person {
     text-align: center;
     margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .social-list {
