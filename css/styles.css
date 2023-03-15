@@ -7,6 +7,7 @@
     --bth-color:#F4F4FD;
     --pressed-state: #404BBF;
     --grey-customer: #8E8F99;
+    --green-media: #31d0aa;
     --element-gap:24px;
 }
 
@@ -85,8 +86,11 @@ button {
 /* HEADER */
 
 .page-heade {
-    border: bottom;
+    border-bottom: var(--text-footer);
     text-align: center;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-heade-container {
@@ -291,7 +295,6 @@ button {
 
 .our-list-text {
     display: flex;
-    flex-wrap: wrap;
     gap: var(--element-gap);
 }
 
@@ -322,6 +325,7 @@ button {
 }
 
 .emplo-our-link {
+    height: 112px;
     display: flex;
     justify-content: center;
     background-color: var(--bth-color);
@@ -398,6 +402,11 @@ button {
     fill: var(--bth-color);
 }
 
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: var(--pressed-state);
+}
+
 .media-list {
     display: flex;
     flex-wrap: wrap;
@@ -472,6 +481,12 @@ button {
     border-radius: 4px;
 }
 
+.customer-list-link:hover,
+.customer-list-link:focus {
+    fill: var(--pressed-state);
+    border: 1px solid #404BBF;
+}
+
 .customer-list-icon {
     fill: var(--grey-customer);
 }
@@ -543,11 +558,19 @@ button {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+
     background-color: var(--text-color);
 }
 
 .media-list-icon {
     fill: var(--bth-color);
+}
+
+.media-list-link:hover,
+.media-list-link:focus {
+    background-color: var(--green-media);
 }
 
 
