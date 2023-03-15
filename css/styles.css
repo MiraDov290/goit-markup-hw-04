@@ -531,15 +531,10 @@ button {
 
 .media-list {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
     gap: 16px;
     margin-top: 16px;
-    margin-bottom: 132px;
     margin-left: 120px;
-    width: 208px;
-    height: 40px;   
+    width: 208px;   
 }
 
 .media-list-link {
