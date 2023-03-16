@@ -491,7 +491,6 @@ button {
     width: 168px;
     height: 88px;
 
-    fill: var(--grey-customer);
     border: 1px solid #8E8F99;
     border-radius: 4px;
 }
@@ -504,8 +503,14 @@ button {
 .customer-list-icon {
     width: 104px;
     height: 56px;
+
+    fill: var(--grey-customer);
 }
 
+.customer-list-icon:hover,
+.customer-list-icon:focus {
+    fill: var(--pressed-state);
+}
 
 /* FOOTER */
 
@@ -553,18 +558,18 @@ button {
     color: var(--mains-color);
 }
 
-.social-list {
+.social-media-list {
     list-style: none;
 }
 
-.social-list {
+.social-media-list {
     display: flex;
     margin-top: 16px;
     padding: 0px;
     gap: 16px;   
 }
 
-.social-list-link {
+.social-media-list-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -577,12 +582,12 @@ button {
     background-color: var(--text-color);
 }
 
-.social-list-icon {
+.social-media-list-icon {
     fill: var(--bth-color);
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
+.social-media-list-link:hover,
+.social-media-list-link:focus {
     background-color: var(--green-media);
 }
 
