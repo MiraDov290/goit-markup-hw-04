@@ -558,18 +558,18 @@ button {
     color: var(--mains-color);
 }
 
-.social-media-list {
+.med-list {
     list-style: none;
 }
 
-.social-media-list {
+.med-list {
     display: flex;
     margin-top: 16px;
     padding: 0px;
     gap: 16px;   
 }
 
-.social-media-list-link {
+.med-list-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -582,12 +582,12 @@ button {
     background-color: var(--text-color);
 }
 
-.social-media-list-icon {
+.med-list-icon {
     fill: var(--bth-color);
 }
 
-.social-media-list-link:hover,
-.social-media-list-link:focus {
+.med-list-link:hover,
+.med-list-link:focus {
     background-color: var(--green-media);
 }
 
