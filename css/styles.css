@@ -198,7 +198,7 @@ button {
     text-align: center;
     background-color: var(--modal-color);
 
-    min-width: 1440px;
+    max-width: 1440px;
     min-height: 600px;
     margin-right: auto;
     margin-left: auto;
@@ -256,6 +256,7 @@ button {
 .main-name-bth {
     display: flex;
     justify-content: center;
+    margin-bottom: 72px;
 }
 
 .main-item:not(:last-child) {
@@ -324,9 +325,10 @@ button {
     width: 264px;
 }
 
-.emplo-our-link {
+.emplo-our-cart {
     height: 112px;
     display: flex;
+    align-items: center;
     justify-content: center;
     background-color: var(--bth-color);
     border-radius: 4px;
@@ -526,11 +528,12 @@ button {
     color: var(--text-footer);
 }
 
-.hero-media {
-    margin-bottom: 16px;
+.social-media {
     margin-left: 120px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500px;
+}
+
+.hero-media {
+    font-weight : 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -543,8 +546,6 @@ button {
 
 .media-list {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     margin-top: 16px;
     padding: 0px;
     gap: 16px;   
