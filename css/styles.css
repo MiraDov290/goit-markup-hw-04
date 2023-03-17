@@ -338,7 +338,6 @@ button {
 .emlo-our-icon {
     width: 64px;
     height: 64px;
-    margin: 24px 100px 24px 100px;
 }
 
 
@@ -491,24 +490,19 @@ button {
     width: 168px;
     height: 88px;
 
+    fill: var(--grey-customer);
     border: 1px solid #8E8F99;
     border-radius: 4px;
-}
-
-.customer-list-link:hover,
-.customer-list-link:focus {
-    border: 1px solid #404BBF;
 }
 
 .customer-list-icon {
     width: 104px;
     height: 56px;
-
-    fill: var(--grey-customer);
 }
 
-.customer-list-icon:hover,
-.customer-list-icon:focus {
+.customer-list-link:hover,
+.customer-list-link:focus {
+    border: 1px solid #404BBF;
     fill: var(--pressed-state);
 }
 
